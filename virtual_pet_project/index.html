@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>Virtual Pet</title>
+</head>
+
+<body>
+
+    <div id="intro">
+        <h1>Welcome to Virtual Pet</h1>
+        <input type="text" id="name" placeholder="Choose your pet's name">
+        <button type="submit" id="submit_button">Start Game</button>
+    </div>
+        
+    <div id="dog">
+        <img src="PET_ASSETS/dog_normal.png" id="doggy">
+    </div>
+
+
+    <div id="buttons">
+        <button onclick="feeddog()" id="feed_button">Feed</button>
+        <button onclick="petdog()" id="pet_button">Pet</button>
+        <button onclick="treatdog()" id="treat_button">Little Treat</button>
+        <button onclick = "sleepdog() " id="sleep_button">Sleep</button>
+        <button onclick = "leavealonedog() " id="leavealone_button">Leave Alone</button>
+        <button onclick = "maddog() " id="mad_button">Mad</button>
+        <br>
+
+        <p id="feedstats" style="text-align: center;"></p>
+        <h4 id="currentfeedstats">Current Levels  </h4>
+         <p id="happiness"></p>
+         <p id="health"></p>
+    </div>
+
+
+    <div id="GameOver"> </div>
+   
+
+
+
+        <script src="/script.js"></script>
+</body>
+</html>
+

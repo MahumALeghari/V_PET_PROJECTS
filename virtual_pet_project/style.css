@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+    color: bisque;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#buttons{
+    text-align: center;
+    justify-content: center;
+}
+
+#feed_button,#pet_button,#treat_button,#sleep_button{
+    background-color: bisque;
+}
+
+#leavealone_button,#mad_button{
+    background-color:bisque;
+}
+
+#submit_button{
+    background-color:bisque;
+}
+
+#name{
+background-color: bisque;
+}
